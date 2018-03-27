@@ -14,15 +14,21 @@
 }
 
 .Player__score,
-.Player__button {
+.Player__button,
+.Player__button_delete {
     padding: 10px;
     color: yellow;
     font-size: 24pt;
     text-align: right;
 }
 
-.Player__button {
+.Player__button,
+.Player__button_delete {
     float: right;
     padding: 0 10px 0 10px;
     cursor: pointer;
+}
+
+.Player__button_delete {
+    color: red;
 }

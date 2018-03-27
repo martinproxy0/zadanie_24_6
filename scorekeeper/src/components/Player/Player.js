@@ -5,9 +5,9 @@ const Player = (props) => (
   <li className="Player">
     <span className="Player__name">{props.name}</span>
     <span className="Player__score">{props.score}</span>
-    <span className="Player__button" onClick={() => props.onPlayerScoreChange(1)} >+</span>
+    <span className="Player__button_delete" onClick={() => props.onPlayerRemove()} > X </span>
     <span className="Player__button" onClick={() => props.onPlayerScoreChange(-1)} >-</span>
-    <span className="Player__button_delete" onClick={() => props.onPlayerRemove()} >-</span>
+    <span className="Player__button" onClick={() => props.onPlayerScoreChange(1)} >+</span>
   </li>
 );
 

@@ -5,11 +5,12 @@ const AddPlayer = (props) => {
 
     let input;
 
-
     const onSubmit = (event) => {
         event.preventDefault();
-        props.onPlayerAdd(input.value);
-        input.value = '';
+        if (input.value.length > 3) {
+            props.onPlayerAdd(input.value);
+            input.value = '';
+        }
     }
 
     return (

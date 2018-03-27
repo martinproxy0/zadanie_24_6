@@ -1,0 +1,28 @@
+.Player {
+    list-style: none;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.Player__name {
+    color: whitesmoke;
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.Player__score,
+.Player__button {
+    padding: 10px;
+    color: yellow;
+    font-size: 24pt;
+    text-align: right;
+}
+
+.Player__button {
+    float: right;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
